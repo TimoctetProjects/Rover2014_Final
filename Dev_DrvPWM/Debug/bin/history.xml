@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -g -nostartfiles -Map=Dev_DrvPWM.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Dev_DrvPWM -TC:\CooCox\CoIDE\configuration\ProgramData\Dev_DrvPWM/arm-gcc-link.ld -g">
+      <target file="Dev_DrvPWM.elf" lastModified="14b6f2b92cc">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="14b6f2b7d21"/>
+         <source file="..\obj\equ_Camera.o" lastModified="14b6f2b7dcc"/>
+         <source file="..\obj\equ_MCC.o" lastModified="14b6f2b7e69"/>
+         <source file="..\obj\equ_Bargraph.o" lastModified="14b6f2b7ef5"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14b6f2b7f82"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="14b6f2b7fef"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14b6f2b802e"/>
+         <source file="..\obj\drv_InputCapture.o" lastModified="14b6f2b80ba"/>
+         <source file="..\obj\main.o" lastModified="14b6f2b8137"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14b6f2b81e3"/>
+         <source file="..\obj\drv_USART.o" lastModified="14b6f2b828f"/>
+         <source file="..\obj\timers.o" lastModified="14b6f2b830c"/>
+         <source file="..\obj\bsp_carte.o" lastModified="14b6f2b8399"/>
+         <source file="..\obj\drv_ADC.o" lastModified="14b6f2b8426"/>
+         <source file="..\obj\util_TSW.o" lastModified="14b6f2b84b2"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="14b6f2b854e"/>
+         <source file="..\obj\printf.o" lastModified="14b6f2b85fa"/>
+         <source file="..\obj\equ_Servo.o" lastModified="14b6f2b8677"/>
+         <source file="..\obj\drv_TimBase.o" lastModified="14b6f2b8714"/>
+         <source file="..\obj\tasks.o" lastModified="14b6f2b87fe"/>
+         <source file="..\obj\util_FIFO.o" lastModified="14b6f2b888b"/>
+         <source file="..\obj\util_Console.o" lastModified="14b6f2b8946"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14b6f2b89c3"/>
+         <source file="..\obj\list.o" lastModified="14b6f2b8a11"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14b6f2b8a6f"/>
+         <source file="..\obj\syscalls.o" lastModified="14b6f2b8acd"/>
+         <source file="..\obj\startup_constructor.o" lastModified="14b6f2b8b0b"/>
+         <source file="..\obj\queue.o" lastModified="14b6f2b8ba7"/>
+         <source file="..\obj\port.o" lastModified="14b6f2b8c05"/>
+         <source file="..\obj\croutine.o" lastModified="14b6f2b8c53"/>
+         <source file="..\obj\event_groups.o" lastModified="14b6f2b8cc1"/>
+         <source file="..\obj\util_AffDebug.o" lastModified="14b6f2b8d4d"/>
+         <source file="..\obj\misc.o" lastModified="14b6f2b8dbb"/>
+         <source file="..\obj\drv_GPIO.o" lastModified="14b6f2b8e38"/>
+         <source file="..\obj\heap_1.o" lastModified="14b6f2b8e86"/>
+         <source file="..\obj\drv_PWM.o" lastModified="14b6f2b8f51"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="14b6f2b904b"/>
+      </target>
+   </processor>
+</history>

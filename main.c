@@ -33,12 +33,6 @@ int
 main(
 	void
 ){
-	uint32_t PLLL1 = 336 <<6;
-	uint32_t PLLL2 = ((2>>1) - 1) << 16;
-	uint32_t PLLL3 = 0x00400000;
-	uint32_t PLLLQ = 7 << 24;
-	uint32_t clockk = PLLL1 | PLLL2 | PLLL3 | PLLLQ;
-
 	//--------------------------------------------------------------
 	//------------ Initialisations
 	BSP_Init();
